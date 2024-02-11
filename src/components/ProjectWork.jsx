@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectsItem from './ProjectsItem'
 import animationMakingImg from '../assets/animationMaking.png'
-import digitalDrawingImg from '../assets/digitalDrawing.jpg'
+import digitalDrawingImg from '../assets/johnAnthony_output3.jpg'
 import gameCreateImg from '../assets/gameCreate.jpg'
 import websiteDevelopingImg from '../assets/websiteDeveloping.jpg'
 
