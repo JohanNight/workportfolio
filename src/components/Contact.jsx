@@ -10,15 +10,15 @@ const Contact = () => {
         <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
           <div className='flex flex-col'>
             <label name="name" className='uppercase text-sm py-2'>Name: </label>
-            <input type="text" name="name" autoComplete='off'className='border-2 rounded-lg p-3 flex border-gray-300'/>
+            <input type="text" name="name" autoComplete='off' autoSave='off' className='border-2 rounded-lg p-3 flex border-gray-300'/>
           </div>
           <div className='flex flex-col'>
             <label name="phone_number" className='uppercase text-sm py-2'>Phone Number: </label>
-            <input type="text" name="phone_number" className='border-2 rounded-lg p-3 flex border-gray-300'/>
+            <input type="text" name="phone_number" className='border-2 rounded-lg p-3 flex border-gray-300' autoComplete='off' autoSave='off'/>
           </div>
           <div className='flex flex-col py-2'>
             <label name="email" className='uppercase text-sm py-2'>Email: </label>
-            <input type="email" name="email" autoComplete='off'className='border-2 rounded-lg p-3 flex border-gray-300 '/>
+            <input type="email" name="email" autoComplete='off' autoSave='off'className='border-2 rounded-lg p-3 flex border-gray-300 ' />
           </div>
           <div className='flex flex-col py-2'>
             <label name="subject" className='uppercase text-sm py-2'>Subject: </label>
