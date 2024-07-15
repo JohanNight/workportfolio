@@ -36,7 +36,7 @@ const Main = () => {
                     <FaFacebookF className="cursor-pointer" size={20}/>
                     <FaInstagram className="cursor-pointer" size={20}/>
                     <FaTwitter className="cursor-pointer" size={20}/>
-                    <FaLinkedinIn className="cursor-pointer" size={20}/>
+                    <a href="http://www.linkedin.com/in/john-anthony-suelila-00a44826a"><FaLinkedinIn className="cursor-pointer" size={20}/></a>
                  </div>
              </div>
              

@@ -13,7 +13,7 @@ const ProjectWork = () => {
         <h1 className='text-4xl font-bold text-center text-[#001b5e] capitalize'>Projects</h1>
         <p className='text-center py-8 sm:text-lg text-sm m-auto p-2 '>Enter a realm where imagination has no boundaries. I showcase a wide range of skills in this portfolio of work, covering the fields of digital arts, game development, animation, and web development. Every project I work on is an expression of my love for creativity and commitment to creating unique experiences. </p>
       <div className='grid sm:grid-cols-2 gap-12'>
-        <ProjectsItem img={animationMakingImg} title='Animation'/>
+        <ProjectsItem img={animationMakingImg} title='Animation'/> 
         <ProjectsItem img={digitalDrawingImg} title= 'Digital Drawing'/>
         <ProjectsItem img={gameCreateImg} title='Game Development'/>
         <ProjectsItem img={websiteDevelopingImg } title='Website Development'/>
